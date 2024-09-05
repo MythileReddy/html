@@ -1,0 +1,61 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive </title>
+    <style>
+          header{
+            background: #d70e94;
+            color: #d2a511;
+            padding: 10px 0;
+            text-align: center;
+        }
+        footer {
+        
+    
+        
+            background: #c18607;
+            color: #1e1269;
+            text-align: center;
+            padding: 10px 0;
+        
+
+        
+        @media (max-width: 768px) {
+            .main-content {
+                flex-direction: column;
+            }footer {
+            
+            .main-content > div {
+                margin-bottom: 20px;
+            }
+            
+            nav ul li {
+                display: block;
+                margin-bottom: 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Responsive Website</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href=""></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <div class="main-content">
+            <div class="content">
+                <h2>Main Content</h2>
+         
+
